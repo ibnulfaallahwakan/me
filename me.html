@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ibnulfallahalwakani Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .bg-animate {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100%;
+    }
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .hero-image {
+      width: 100%;
+      height: 60vh;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    .hero-text {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-animate">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="https://miro.medium.com/v2/resize:fit:1400/1*JLcWOmr7YGU0oHF8R-mfzg.jpeg" alt="Logo" width="30" height="30"> ibnulfallahalwakani</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tentang</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">YouTube</a>
+              <a class="dropdown-item" href="#">Facebook</a>
+              <a class="dropdown-item" href="#">TikTok</a>
+              <a class="dropdown-item" href="#">Instagram</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Hubungi Saya</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="hero-image" style="background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*JLcWOmr7YGU0oHF8R-mfzg.jpeg');">
+            <div class="hero-text">
+              <h1>Selamat Datang di Portofolio Saya</h1>
+              <p>Deskripsi singkat tentang gambar pertama.</p>
+              <button class="btn btn-primary">Hubungi Aku</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="hero-image" style="background-image: url('https://img.freepik.com/premium-photo/group-kids-dancing-singing-song-stage-childrens-performance-generative-ai_881307-588.jpg');">
+            <div class="hero-text">
+              <h1>Kreativitas Anak</h1>
+              <p>Deskripsi singkat tentang gambar kedua.</p>
+              <button class="btn btn-primary">Hubungi Aku</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="hero-image" style="background-image: url('https://img.freepik.com/premium-photo/photo-beautiful-woman-with-cartoon-animationa-photo-naruto-carackter-animation_973085-4769.jpg');">
+            <div class="hero-text">
+              <h1>Kecantikan dalam Animasi</h1>
+              <p>Deskripsi singkat tentang gambar ketiga.</p>
+              <button class="btn btn-primary">Hubungi Aku</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="hero-image" style="background-image: url('https://img.freepik.com/premium-photo/asian-beauty-women-model-photo_728472-1513.jpg');">
+            <div class="hero-text">
+              <h1>Model Asia yang Menawan</h1>
+              <p>Deskripsi singkat tentang gambar keempat.</p>
+              <button class="btn btn-primary">Hubungi Aku</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Seni Musik</h2>
+          <p>Postingan tentang seni musik...</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Gambar Menarik</h2>
+          <p>Postingan tentang gambar menarik...</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+      <div>
+        <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="mb-0">&copy; 2024 ibnulfallahalwakani. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
